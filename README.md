@@ -61,6 +61,10 @@ ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directori
 ``` 
 ### Result
 
-Directory found (2100)
+Directory found --> 2100
+
+view-source:http://YOUR-IP/island/2100/
+
+
 
 
