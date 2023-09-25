@@ -41,12 +41,14 @@ Nmap done: 1 IP address (1 host up) scanned in 9.47 seconds
 
 ## Next Step --> Enumerate The Directory
 
+
 after browsing the IP Adress and found nothing, I tried to fuzz the directory with ffuf
 
 ```
 ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directories.txt -u http://YOUR-IP/FUZZ
 ```
-![DemoCreatorSnap_2023-09-25 21-14-14](https://github.com/orkets/orkets/assets/111442711/258f1087-9628-448f-9895-b64bf111fdac)
+![DemoCreatorSnap_2023-09-25 21-14-14](https://github.com/orkets/orkets/assets/111442711/82bfcde2-ada8-4332-86bf-cb2922caa852)
+
 
 
 
