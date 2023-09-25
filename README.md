@@ -17,4 +17,8 @@ Privilege Escalation
 
 
    
-###First nmap scan
+## First nmap scan
+```
+sudo nmap -T4 -sV -sS -T4  10.10.2.78
+```
+
