@@ -23,6 +23,7 @@ sudo nmap -T4 -sV -sS -T4  10.10.2.78
 ```
 
 Result:
+
 Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-25 14:06 EDT
 Nmap scan report for 10.10.2.78
 Host is up (0.11s latency).
@@ -44,6 +45,6 @@ after browsing the IP Adress and found nothing, I tried to fuzz the directory wi
 ```
 ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directories.txt -u http://YOUR-IP/FUZZ
 ```
-
+![DemoCreatorSnap_2023-09-25 21-14-14](https://github.com/orkets/orkets/assets/111442711/258f1087-9628-448f-9895-b64bf111fdac)
 
 
