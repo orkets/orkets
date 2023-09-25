@@ -55,5 +55,12 @@ Page Source
 ![DemoCreatorSnap_2023-09-25 21-30-03](https://github.com/orkets/orkets/assets/111442711/2ec06634-9c85-4369-9347-6f3fb32d6722)
 
 
+Using ffuf again on island directory 
+```
+ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directories.txt -u http://YOUR-IP/island/FUZZ
+``` 
+### Result
+
+
 
 
