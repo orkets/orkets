@@ -22,3 +22,28 @@ Privilege Escalation
 sudo nmap -T4 -sV -sS -T4  10.10.2.78
 ```
 
+Result:
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-25 14:06 EDT
+Nmap scan report for 10.10.2.78
+Host is up (0.11s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE VERSION
+21/tcp  open  ftp     vsftpd 3.0.2
+22/tcp  open  ssh     OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)
+80/tcp  open  http    Apache httpd
+111/tcp open  rpcbind 2-4 (RPC #100000)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 9.47 seconds
+
+## Next Step --> Enumerate The Directory
+
+after browsing the IP Adress and found nothing, I tried to fuzz the directory with ffuf
+
+```
+ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directories.txt -u http://YOUR-IP/FUZZ
+```
+
+
+
