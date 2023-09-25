@@ -1,18 +1,20 @@
-Twitter: 
-orketsa
+Lian-Yu --> beginner CTF box Capture the flags and have fun.
+
+Tools used in this write up
+-Reconnaissance
+  * nmap
+
+-Enumeration
+ * Directory Bruteforce using ffuf and Gobuster
+
+-Exploitation
+ * Steganography:
+ (stegcracker, Steghide)
+
+Privilege Escalation
+ * pkexec
 
 
-<!--
-**orkets/orkets** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+   
+###First nmap scan
