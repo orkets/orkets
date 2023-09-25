@@ -45,7 +45,7 @@ Nmap done: 1 IP address (1 host up) scanned in 9.47 seconds
 after browsing the IP Adress and found nothing, I tried to fuzz the directory with ffuf
 
 ```
-ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directories.txt -u http://YOUR-IP/FUZZ
+ffuf -w /your_path_to_directory-list-2.3-medium.txt -u http://YOUR-IP/FUZZ
 ```
 
 ### Findings
@@ -63,7 +63,36 @@ ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directori
 
 Directory found --> 2100
 
+Nothing intersting till you see the page source 
+
 view-source:http://YOUR-IP/island/2100/
+
+![DemoCreatorSnap_2023-09-25 22-17-45](https://github.com/orkets/orkets/assets/111442711/0a3eee78-1b8d-407a-afc4-be3aebed6395)
+
+
+So technically it's a hint for a hidden file extension run gobuster with the following command to see what's the file full name 
+```
+gobuster dir -u http://10.10.114.17/island/2100/  -w  /your_path_to_directory-list-2.3-medium.txt -x ticket 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You can check from Cipher Identifier  
 
 
 
