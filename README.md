@@ -39,6 +39,10 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 9.47 seconds
 
+
+
+**So as we can see ssh and ftp are open we can use that later*
+
 ## Next Step --> Enumerate The Directory
 
 
@@ -83,7 +87,7 @@ green_arrow.ticket
 You can use curl to review the file 
 - **RTy8yhBQdscX** looks like base to decode (You can check from Cipher Identifier)
 - save it into a file then you can either use Cyberchef or you can decode it using your terminal like I did
-  
+-!#th3h00d
 
 
 
