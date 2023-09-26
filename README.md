@@ -139,14 +139,17 @@ Indeed, as evident from the initial line, the file header isn't formatted as a P
 ![DemoCreatorSnap_2023-09-26 10-04-40](https://github.com/orkets/orkets/assets/111442711/cff3d51e-e9f0-46c3-b47f-04fd7f773aa0)
 
 Let's make sure everything is on the right track by using exiftool again
+
 ![DemoCreatorSnap_2023-09-26 10-08-22](https://github.com/orkets/orkets/assets/111442711/c34544c7-f3d4-45b6-a1ac-9b210dbd3de9)
 
-Cool! the error has gone and we can open the image now#
+Cool! the error has gone and we can open the image now
+
 ![DemoCreatorSnap_2023-09-26 10-09-49](https://github.com/orkets/orkets/assets/111442711/fbbb67ea-348c-40f4-bea9-45fc28c592b5)
 
 It says the password for something is 'password'. I checked the other files to see if we can use this password on and i found that it can be used on the aa.jpg 
 
 I got 2 files the first one (passwd.txt) wasn't including a passwrod but the other one (shado) contains the SSH password for slade username as we found at the beginning 
+
 ![DemoCreatorSnap_2023-09-26 10-18-56](https://github.com/orkets/orkets/assets/111442711/c2b6d83c-7162-49af-a757-2f12cabab12b)
 
 
