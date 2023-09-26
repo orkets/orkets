@@ -139,7 +139,7 @@ Indeed, as evident from the initial line, the file header isn't formatted as a P
 
 ![DemoCreatorSnap_2023-09-26 10-04-40](https://github.com/orkets/orkets/assets/111442711/cff3d51e-e9f0-46c3-b47f-04fd7f773aa0)
 
-Let's make sure everything is on the right track by using exiftool again
+Let's ensure that everything is heading in the correct direction by using exiftool again
 
 ![DemoCreatorSnap_2023-09-26 10-08-22](https://github.com/orkets/orkets/assets/111442711/c34544c7-f3d4-45b6-a1ac-9b210dbd3de9)
 
