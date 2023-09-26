@@ -100,12 +100,14 @@ vigilante : !#th3h00d
 ```
 
 
-SO I took the credentials and tried to login via both ssh and FTP, but only looged in successfully via FTP
+S I took the credentials and tried to login via both ssh and FTP, but only looged in successfully via FTP
 
 ![DemoCreatorSnap_2023-09-26 09-25-42](https://github.com/orkets/orkets/assets/111442711/106de834-8f32-44ad-9af2-0bff670accd1)
 
 
 found couple files, I downloaded these files by using “get” command. I tried to look up for something else if there's any and i got another username
+
+
 ![DemoCreatorSnap_2023-09-26 09-51-22](https://github.com/orkets/orkets/assets/111442711/0c98e68d-4161-4922-8ba8-14b6f60b54a9)
 
 
@@ -115,11 +117,14 @@ Cool!
 I started to see what's hidden in these files. all of them have either jpg or png extention except for one 
 ![DemoCreatorSnap_2023-09-26 09-55-09](https://github.com/orkets/orkets/assets/111442711/c8b9c9d2-ae36-4868-8bd4-3a7cbe835672)
 
+
 i tried to to go deeper with this specific file using exiftool 
+
 ![DemoCreatorSnap_2023-09-26 09-58-33](https://github.com/orkets/orkets/assets/111442711/88dae496-7aa7-4b87-a5c3-450ba4f71725)
 
 
-### You can skip this step by using stegcracker to open the aa.jpg file and it would get the password immediately but i thought why not trying to solve it :) ###
+# You can skip the following step by using stegcracker to open the aa.jpg file and it would get the password immediately but i thought why not trying to solve it :) #
+
 ![DemoCreatorSnap_2023-09-26 10-16-25](https://github.com/orkets/orkets/assets/111442711/9aab7a50-bafc-4274-b8b3-546f6905a811)
 
 
