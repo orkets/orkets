@@ -81,6 +81,9 @@ green_arrow.ticket
 ```
 
 You can use curl to review the file 
+- **RTy8yhBQdscX** looks like base to decode (You can check from Cipher Identifier)
+- save it into a file then you can either use Cyberchef or you can decode it using your terminal like I did
+  
 
 
 
@@ -96,7 +99,8 @@ You can use curl to review the file
 
 
 
-You can check from Cipher Identifier  
+
+
 
 
 
