@@ -130,7 +130,7 @@ i tried to to go deeper with this specific file using exiftool
 
 
 
-Le'ts get back to the error
+Let's get back to the error
 
 ## Solving the error during opening the Leave_me_alone.png file ##
 file extension is png but there's an error occuring so it means the headers of the file could potentially be damaged so I used hexeditor
