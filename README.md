@@ -61,7 +61,7 @@ ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directori
 ``` 
 ### Result
 
-Directory found --> 2100
+Directory found --> **2100**
 
 Nothing intersting till you see the page source 
 
@@ -75,8 +75,12 @@ So technically it's a hint for a hidden file extension run gobuster with the fol
 gobuster dir -u http://10.10.114.17/island/2100/  -w  /your_path_to_directory-list-2.3-medium.txt -x ticket 
 ```
 
+### Result: 
+```
+green_arrow.ticket
+```
 
-
+You can use curl to review the file 
 
 
 
