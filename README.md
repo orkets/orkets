@@ -24,7 +24,7 @@ sudo nmap -T4 -sV -sS -T4  10.10.2.78
 ```
 
 # Result:
-
+```
 Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-25 14:06 EDT
 Nmap scan report for 10.10.2.78
 Host is up (0.11s latency).
@@ -38,7 +38,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 9.47 seconds
-
+```
 
 
 **So as we can see ssh and ftp are open we can use that later*
@@ -55,7 +55,7 @@ ffuf -w /your_path_to_directory-list-2.3-medium.txt -u http://YOUR-IP/FUZZ
 ### Findings
 ![DemoCreatorSnap_2023-09-25 21-14-14](https://github.com/orkets/orkets/assets/111442711/82bfcde2-ada8-4332-86bf-cb2922caa852)
 
-Page Source
+Page Source shows a name we can use it later
 ![DemoCreatorSnap_2023-09-25 21-30-03](https://github.com/orkets/orkets/assets/111442711/2ec06634-9c85-4369-9347-6f3fb32d6722)
 
 
@@ -95,7 +95,7 @@ You can use curl to review the file
 !#th3h00d   looks like a password for something 
 ```
 
-SO i tried to use these cerds for ftp
+SO i tried to login to ftp  with these cerds ### vigilante : !#th3h00d ###
 
 
 
