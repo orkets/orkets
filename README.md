@@ -11,6 +11,7 @@ Tools used in this write up.
 -Exploitation
  * Steganography:
  (stegcracker, Steghide)
+ * hexeditor
 
 Privilege Escalation
  * pkexec
