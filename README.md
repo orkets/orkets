@@ -152,6 +152,7 @@ I got 2 files the first one (passwd.txt) wasn't including a passwrod but the oth
 
 ![DemoCreatorSnap_2023-09-26 10-18-56](https://github.com/orkets/orkets/assets/111442711/c2b6d83c-7162-49af-a757-2f12cabab12b)
 
+shado file 
 
 
 ![DemoCreatorSnap_2023-09-26 10-20-58](https://github.com/orkets/orkets/assets/111442711/09df3d5f-a393-4b9b-b44d-852ded295ba8)
@@ -160,6 +161,7 @@ I got 2 files the first one (passwd.txt) wasn't including a passwrod but the oth
 
 
 and it did work
+
 ![DemoCreatorSnap_2023-09-26 10-24-44](https://github.com/orkets/orkets/assets/111442711/075e2f3a-4beb-40f4-adf1-d0d1ac5b6bd6)
 
 
@@ -169,7 +171,7 @@ The user.txt was easily found
 
 
 
-### Privilege Escalation
+## Privilege Escalation ##
 
 before any testing i tries to see  what i can execute with sudo rights 
 ![DemoCreatorSnap_2023-09-26 10-27-29](https://github.com/orkets/orkets/assets/111442711/1527762d-d777-4092-8cc8-b3bbeec43ed7)
