@@ -101,7 +101,7 @@ vigilante : !#th3h00d
 ```
 
 
-So I took the credentials and tried to login via both ssh and FTP, but only looged in successfully via FTP
+So I took the credentials and tried to login via both ssh and FTP, but only logged in successfully via FTP
 
 ![DemoCreatorSnap_2023-09-26 09-25-42](https://github.com/orkets/orkets/assets/111442711/106de834-8f32-44ad-9af2-0bff670accd1)
 
