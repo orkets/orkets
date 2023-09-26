@@ -174,7 +174,7 @@ The user.txt was easily found
 
 ## Privilege Escalation ##
 
-before any testing i tries to see  what i can execute with sudo rights 
+before any testing i tried to see  what i can execute with sudo rights 
 ![DemoCreatorSnap_2023-09-26 10-27-29](https://github.com/orkets/orkets/assets/111442711/1527762d-d777-4092-8cc8-b3bbeec43ed7)
 
 It says "PASSWD" which means we can use sudo so i looked up for /usr/bin/pkexec privilege escalation on google 
