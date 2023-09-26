@@ -100,7 +100,7 @@ vigilante : !#th3h00d
 ```
 
 
-S I took the credentials and tried to login via both ssh and FTP, but only looged in successfully via FTP
+So I took the credentials and tried to login via both ssh and FTP, but only looged in successfully via FTP
 
 ![DemoCreatorSnap_2023-09-26 09-25-42](https://github.com/orkets/orkets/assets/111442711/106de834-8f32-44ad-9af2-0bff670accd1)
 
@@ -123,14 +123,15 @@ i tried to to go deeper with this specific file using exiftool
 ![DemoCreatorSnap_2023-09-26 09-58-33](https://github.com/orkets/orkets/assets/111442711/88dae496-7aa7-4b87-a5c3-450ba4f71725)
 
 
-# You can skip the following step by using stegcracker to open the aa.jpg file and it would get the password immediately but i thought why not trying to solve it :) #
+## You can skip the following step by using stegcracker to open the aa.jpg file and it would get the password immediately but i thought why not trying to solve it :) ##
 
 ![DemoCreatorSnap_2023-09-26 10-16-25](https://github.com/orkets/orkets/assets/111442711/9aab7a50-bafc-4274-b8b3-546f6905a811)
 
 
 
+Le'ts get back to the error
 
-### Solving the error during opening the Leave_me_alone.png file ###
+## Solving the error during opening the Leave_me_alone.png file ##
 file extension is png but there's an error occuring so it means the headers of the file could potentially be damaged so I used hexeditor
 
 Indeed, as evident from the initial line, the file header isn't formatted as a PNG. To address this, i did a brief online search for **PNG hex header** to locate the necessary information
