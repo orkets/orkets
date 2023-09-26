@@ -115,11 +115,11 @@ found couple files, I downloaded these files by using “get” command. I tried
 Cool!
 
 
-I started to see what's hidden in these files. all of them have either jpg or png extention except for one 
+I started to see what's hidden in these files. The Leave_me_alone.png file has captured my attention.
 ![DemoCreatorSnap_2023-09-26 09-55-09](https://github.com/orkets/orkets/assets/111442711/c8b9c9d2-ae36-4868-8bd4-3a7cbe835672)
 
 
-i tried to to go deeper with this specific file using exiftool 
+i tried to go deeper with this specific file using exiftool 
 
 ![DemoCreatorSnap_2023-09-26 09-58-33](https://github.com/orkets/orkets/assets/111442711/88dae496-7aa7-4b87-a5c3-450ba4f71725)
 
