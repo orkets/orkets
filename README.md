@@ -24,7 +24,7 @@ Privilege Escalation
 sudo nmap -T4 -sV -sS -T4  10.10.2.78
 ```
 
-# Result:
+## Result:
 ```
 Starting Nmap 7.93 ( https://nmap.org ) at 2023-09-25 14:06 EDT
 Nmap scan report for 10.10.2.78
@@ -53,7 +53,7 @@ after browsing the IP Adress and found nothing, I tried to fuzz the directory wi
 ffuf -w /your_path_to_directory-list-2.3-medium.txt -u http://YOUR-IP/FUZZ
 ```
 
-### Findings
+## Findings
 ![DemoCreatorSnap_2023-09-25 21-14-14](https://github.com/orkets/orkets/assets/111442711/82bfcde2-ada8-4332-86bf-cb2922caa852)
 
 Page Source shows a name that we need later 
@@ -64,7 +64,7 @@ Using ffuf again on island directory
 ```
 ffuf -w /home/kali/Downloads/SecLists/Discovery/Web-Content/raft-small-directories.txt -u http://YOUR-IP/island/FUZZ
 ``` 
-### Result
+## Result
 
 Directory found --> **2100**
 
@@ -80,7 +80,7 @@ So technically it's a hint for a hidden file extension, run gobuster with the fo
 gobuster dir -u http://10.10.114.17/island/2100/  -w  /your_path_to_directory-list-2.3-medium.txt -x ticket 
 ```
 
-### Result: 
+## Result: 
 ```
 green_arrow.ticket
 ```
