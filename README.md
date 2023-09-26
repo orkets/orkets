@@ -87,13 +87,15 @@ green_arrow.ticket
 You can use curl to review the file 
 - **RTy8yhBQdscX** looks like base to decode (You can check from Cipher Identifier)
 - save it into a file then you can either use Cyberchef or you can decode it using your terminal like I did
--!#th3h00d
+
+![DemoCreatorSnap_2023-09-26 08-52-52](https://github.com/orkets/orkets/assets/111442711/83ccfe09-b423-4037-b0a9-1324761d2459)
 
 
+```
+!#th3h00d   looks like a password for something 
+```
 
-
-
-
+SO i tried to use these cerds for ftp
 
 
 
