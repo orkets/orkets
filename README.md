@@ -41,7 +41,7 @@ Nmap done: 1 IP address (1 host up) scanned in 9.47 seconds
 ```
 
 
-**So as we can see ssh and ftp are open we can use that later*
+**So as we can see ssh and ftp ports are open we can use that information later*
 
 ## Next Step --> Enumerate The Directory
 
@@ -55,7 +55,7 @@ ffuf -w /your_path_to_directory-list-2.3-medium.txt -u http://YOUR-IP/FUZZ
 ### Findings
 ![DemoCreatorSnap_2023-09-25 21-14-14](https://github.com/orkets/orkets/assets/111442711/82bfcde2-ada8-4332-86bf-cb2922caa852)
 
-Page Source shows a name we can use it later
+Page Source shows a name that we need later 
 ![DemoCreatorSnap_2023-09-25 21-30-03](https://github.com/orkets/orkets/assets/111442711/2ec06634-9c85-4369-9347-6f3fb32d6722)
 
 
@@ -74,7 +74,7 @@ view-source:http://YOUR-IP/island/2100/
 ![DemoCreatorSnap_2023-09-25 22-17-45](https://github.com/orkets/orkets/assets/111442711/0a3eee78-1b8d-407a-afc4-be3aebed6395)
 
 
-So technically it's a hint for a hidden file extension run gobuster with the following command to see what's the file full name 
+So technically it's a hint for a hidden file extension, run gobuster with the following command to see what's the file full name 
 ```
 gobuster dir -u http://10.10.114.17/island/2100/  -w  /your_path_to_directory-list-2.3-medium.txt -x ticket 
 ```
@@ -85,17 +85,24 @@ green_arrow.ticket
 ```
 
 You can use curl to review the file 
-- **RTy8yhBQdscX** looks like base to decode (You can check from Cipher Identifier)
-- save it into a file then you can either use Cyberchef or you can decode it using your terminal like I did
 
 ![DemoCreatorSnap_2023-09-26 08-52-52](https://github.com/orkets/orkets/assets/111442711/83ccfe09-b423-4037-b0a9-1324761d2459)
 
+- **RTy8yhBQdscX** looks like base to decode specifically base58 (You can check from Cipher Identifier) 
+- save it into a file then you can either use Cyberchef or you can decode it using your terminal like I did
 
 ```
-!#th3h00d   looks like a password for something 
+!#th3h00d                            --> looks like a password for something 
+```
+Now i got both the username and password for something 
+```
+vigilante : !#th3h00d
 ```
 
-SO i tried to login to ftp  with these cerds ### vigilante : !#th3h00d ###
+
+SO I took the credentials and tried to login via both ssh and FTP, but only looged in successfully via FTP
+
+
 
 
 
